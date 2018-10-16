@@ -28,12 +28,13 @@ span{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+ -webkit-transition: .8s ;
     transition: transform .8s ;
 
 }
 
 #mypicture:hover{
-	 
+	 -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
 
